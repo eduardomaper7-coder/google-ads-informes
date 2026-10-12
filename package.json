@@ -1,0 +1,19 @@
+{
+  "name": "informes-google-ads",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Herramienta de informes mensuales de Google Ads - Aibe Technologies",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "token": "node scripts/get-refresh-token.mjs"
+  },
+  "dependencies": {
+    "html2canvas": "1.4.1",
+    "jspdf": "2.5.2",
+    "next": "^16.3.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }
+}
